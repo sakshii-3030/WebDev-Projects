@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World's News</title>
+    <link rel="stylesheet" href="MainPage.css">
+</head>
+
+
+<body onload="display_time()">
+
+  <div class="main"></div>
+
+    <nav class="navigation" id="navbar">
+        <div class="time">Time: <span id="date-time"> </span></div>
+        <ul> 
+            <li class="heading">THE WORLD'S NEWS</li>
+        </ul>
+        <ul class="contact">
+            <li class="nav_items"><a href="#" class="nav_elements">Home</a></li>
+            <li class="nav_items"><a href="#" target="blank">Articles</a></li>
+            <li class="nav_items"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="links">
+        <ol>
+            <li><a href="brief.html" target="blank">Briefs</a></li>
+            <li><a href="brief.html" target="blank">Videos</a></li>
+            <li><a href="brief.html" target="blank">India</a></li>
+            <li><a href="brief.html" target="blank">World</a></li>
+            <li><a href="brief.html" target="blank">Business</a></li>
+            <li><a href="brief.html" target="blank">Tech</a></li>
+            <li><a href="brief.html" target="blank">Sports</a></li>
+            <li><a href="brief.html" target="blank">Entertainment</a></li>
+            <li><a href="brief.html" target="blank">Life & Style</a></li>
+            <li><a href="brief.html" target="blank">Education</a></li>
+            <li><a href="brief.html" target="blank">Blogs</a></li>
+         <div class="hamburger" onclick="myFunction(this)">
+            <!--THE RIGHT MENU 3 LINES-->
+            <a href="#">
+             <span class="bar" id="bar1"></span>
+             <span class="bar" id="bar2"></span>
+             <span class="bar" id="bar3"></span>
+            </a>
+         </div>
+        </ol>
+        <hr>
+    </div>
+    <div class="hidden-links">
+        <ol class="main-hidden-links">
+            <ol class="hidden-links-heading">News Home
+                <ul class="under-hidden-links">
+                    <li>Cities</li>
+                    <li>Election2021</li>
+                    <li>Smart Cities</li>
+                    <li>Politics</li>
+                    <li>Pollution</li>
+                </ul>
+            </ol>
+            <ol class="hidden-links-heading">Entertainment
+                <ul class="under-hidden-links">
+                    <li>Movies</li>
+                    <li>Web Series</li>
+                    <li>Stand up Comedy</li>
+                    <li>Dance</li>
+                </ul>
+            </ol>
+            <ol class="hidden-links-heading">Lifestyle
+                <ul class="under-hidden-links">
+                    <li>Healthy Ways</li>
+                    <li>Yoga</li>
+                    <li>New Fashion Brands</li>
+                    <li>Makeup</li>
+                </ul>
+            </ol>
+            </ol>
+            <ol class="main-hidden-links">
+            <ol  class="hidden-links-heading">Technology
+                <ul class="under-hidden-links">
+                    <li>New Gadgets</li>
+                    <li>Tech Photos</li>
+                    <li>Reviews</li>
+                </ul>
+            </ol>
+            <ol class="hidden-links-heading">Videos
+                <ul class="under-hidden-links">
+                    <li>Viral Videos</li>
+                </ul>
+            </ol>
+            <ol class="hidden-links-heading">Sports
+                <ul class="under-hidden-links">
+                    <li>Football</li>
+                    <li>Cricket</li>
+                    <li>Olympics 2020</li>
+                </ul>
+            </ol>
+            </ol>
+            <ol class="main-hidden-links">
+            <ol class="hidden-links-heading">Social
+                <ul class="under-hidden-links">
+                    <li>Trending News</li>
+                </ul>
+            </ol>
+            <ol class="hidden-links-heading">Business
+                <ul class="under-hidden-links">
+                    <li>Startups</li>
+                    <li>International Business</li>
+                    <li>Indian Business</li>
+                </ul>
+            </ol>
+            <ol class="hidden-links-heading">Religion
+                <ul class="under-hidden-links">
+                    <li>Festivals</li>
+                    <li>Mantras</li>
+                </ul>
+            </ol>
+            </ol>
+            <ol class="main-hidden-links">
+            <ol class="hidden-links-heading">Astrology
+                <ul class="under-hidden-links">
+                    <li>Horoscope</li>
+                </ul>
+            </ol>
+            <ol class="hidden-links-heading">Editorial
+                <ul class="under-hidden-links">
+                    <li>TWN Editorial</li>
+                </ul>
+            </ol>
+            </ol>
+        </ol>
+    </div>
+    <div class="top-headlines">
+        TOP HEADLINES
+    </div>
+    <!--HEADLINES-->
+    <div class="slideshow">
+     <div class="slides">
+        <div class="numbered">1/2</div>
+          <a href="biden.html" target="blank"><img src="/image/headline1.jpg" alt="Top Headlines" class="headline-images"></a>
+        <div class="caption">Cannot promise what final outcome will be in Afganistan, says Biden</div>
+     </div> <!--DIV OF SLIDE 1 ENDS-->
+     <!--<div class="slides">
+        <div class="numbered">2/3</div>
+         <a href="oil.html" target="blank"><img src="/image/headline.jpg" alt="Top Headlines" style="width:590px; height: 340px"></a>
+        <div class="caption">Why Oil bond isn't the reason Petrol's at Rs 100</div>
+     </div>-->
+     <div class="slides">
+        <div class="numbered">2/2</div>
+         <a href="covid-19.html" target="blank"><img src="/image/headline3.jpg" alt="Top Headlines" class="headline-images"></a>
+        <div class="caption">Covid-19 Vaccines - What you need to know</div>
+     </div>
+      <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+
+
+    <div class="slide-links">
+        <ul>
+            <li class="side-links-text"><a href="#">All Indians safe in Kabul, to be evacuated soon...</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="side-links-text"><a href="#">Why Oil bond isn't the reason Petrol's at Rs 100...</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="side-links-text"><a href="#">Samsung Galaxy A22 5G: Top features...</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="side-links-text"><a href="#">Mantra to succeed in virtual environment...</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="side-links-text"><a href="#">Celeb inspired ethnic looks for Rakshabandhan...</a></li>
+        </ul>
+        <ul>
+            <li><img src="/image/flight.jpg" class="side-images"></li>
+            <li></li>
+            <li><img src="/image/headline.jpg" class="side-images"></li>
+            <li></li>
+            <li><img src="/image/phone.png" class="side-images"></li>
+            <li></li>
+            <li><img src="/image/mantra.png" class="side-images"></li>
+            <li></li>
+            <li><img src="/image/celebs.jpg" class="side-images"></li>
+        </ul>
+    </div>
+
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <div class="interest">
+        Find More What Interests You on The World's News 
+    </div>
+    <footer class="foot">
+        <div>
+            Tell Us a News
+            <span class="find-us">Find Us on: <img src="/image/fb.png" class="find-us-image">
+                <img src="/image/twitter.png" class="find-us-image">
+            </span>
+        </div>
+        <hr class="hr-foot">
+        <div class="Copyright">
+            Copyright © 2021 Bennett, Coleman & Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service
+        </div>
+    </footer>
+
+ 
+
+
+ <script src="MainPage.js"></script>
+ <script>slideShow("slideshow");</script>
+    
+</body>
+</html>
